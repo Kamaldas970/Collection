@@ -8,7 +8,8 @@ public class LaunchTs{
         ts.add(100);
         ts.add(80);
         ts.add(1000);
-
+//Duplicates are not allowed
+//null value gives nullpointerException
         System.out.println(ts);
     }
     }

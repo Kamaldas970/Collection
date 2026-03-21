@@ -11,6 +11,7 @@ public class LaunchTs{
 //Duplicates are not allowed
 //null value gives nullpointerException
           System.out.println("The Higher is "+ts.higher(50)); //Single higher element // (80)
+        System.out.println("The lower is "+ts.lower(50)); //Single Lower element // (80)
         System.out.println(ts);
     }
     }

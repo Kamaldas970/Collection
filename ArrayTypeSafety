@@ -1,0 +1,41 @@
+
+public class LaunchAR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Type Safety
+		int []arr=new int[5];
+		
+		arr[0]=25;
+		arr[1]=35;
+		arr[2]=45;
+		arr[3]=55;
+		arr[4]=65;
+		
+		int data=arr[0];
+		
+		for(int o:arr) {
+			System.out.println(o);
+		}
+		System.out.println(data);
+		
+		//type safety 
+		
+		String str[]=new String[5];
+		
+		str[0]="Telusko";
+		str[1]="Praveen";
+		str[2]="Abbas";
+		str[3]="Devops";
+		str[4]="DSA";
+		
+		String data2=str[4];
+		for(String o:str) {
+			System.out.println(o);
+		}
+		
+		System.out.println(data2);
+
+	}
+
+}

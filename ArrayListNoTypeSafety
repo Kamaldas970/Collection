@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//No type safety
+		
+	ArrayList course=new ArrayList();
+		
+		course.add("telusko");
+		course.add("Devops");
+		course.add("DSA");
+		course.add("SpringBoot");
+		course.add(10);
+		
+		String course1=(String) course.get(0);
+		String course2=(String) course.get(1);
+		String course3=(String) course.get(2);
+		String course4=(String) course.get(3);
+		int course5=(int) course.get(4);
+		
+		System.out.println(course1.toUpperCase());
+		System.out.println(course2.toUpperCase());
+		System.out.println(course3.toUpperCase());
+		System.out.println(course4.toUpperCase());
+		System.out.println(course5);
+	
+		
+		
+
+	}
+
+}
